@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Popppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(139deg, #c13e3e 0%, #e6b332 100%);
+    height: 100vh;
+}
+
+h1 {
+    font-family: sans-serif, Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+}
+.addtask{
+    display: flex;
+    margin: 20px auto;
+    height: 40px;
+}
+#task{
+    width: 100%;
+    padding: 5px 12px;
+    outline: none;
+    border-radius: 0;
+    border: none
+}
+
+.add_img{
+    background-color: #e9993d;
+    border: none;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app{
+    padding: 10px 20px;
+    max-width: 540px;
+    margin: auto;
+}
+.tasklist {
+    display: flex;
+    flex-direction: column;
+}
+
+.tasklist li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    min-height: 30px;
+    margin: 5px auto;
+}
+.tasklist p{
+    padding: 5px;
+    width: 100%;
+    min-height: 30px;
+    background-color: #fff;
+}
+li button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
