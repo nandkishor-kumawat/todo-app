@@ -10,7 +10,6 @@
 }
 
 body {
-    /* background: linear-gradient(139deg, #c13e3e 0%, #e6b332 100%); */
     background-color: #16181e;
     height: 100vh;
 }
@@ -61,27 +60,21 @@ h1 {
 
 .tasklist li {
     display: flex;
-    /* align-items: center; */
     width: 100%;
     position: relative;
-    /* min-height: 30px; */
     margin: 5px auto;
-    /* border: 1px solid #f4f4f4; */
     border-radius: 6px;
     overflow: hidden;
 }
 .tasklist p{
     padding: 10px;
     width: 100%;
-    /* min-height: 30px; */
-    /* background-color: #f4f4f4; */
     background-color: #1e2131;
     color: #fff;
     font-size: 1rem;
 }
 li button {
     width: 40px;
-    /* height: 30px; */
     border: none;
     background-color: #2a2b2f;
     display: flex;
