@@ -10,7 +10,8 @@
 }
 
 body {
-    background: linear-gradient(139deg, #c13e3e 0%, #e6b332 100%);
+    /* background: linear-gradient(139deg, #c13e3e 0%, #e6b332 100%); */
+    background-color: #16181e;
     height: 100vh;
 }
 
@@ -32,16 +33,19 @@ h1 {
     padding: 5px 12px;
     outline: none;
     border-radius: 0;
-    border: none
+    border: none;
+    color: #fff;
+    background-color: #112c44;
 }
 
 .add_img{
-    background-color: #e9993d;
+    background-color: #123654;
     border: none;
-    width: 40px;
+    width: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .app{
     padding: 10px 20px;
@@ -55,25 +59,30 @@ h1 {
 
 .tasklist li {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width: 100%;
     position: relative;
-    min-height: 30px;
+    /* min-height: 30px; */
     margin: 5px auto;
+    /* border: 1px solid #f4f4f4; */
 }
 .tasklist p{
-    padding: 5px;
+    padding: 10px;
     width: 100%;
-    min-height: 30px;
-    background-color: #fff;
+    /* min-height: 30px; */
+    /* background-color: #f4f4f4; */
+    background-color: #1e2131;
+    color: #fff;
+    font-size: 1rem;
 }
 li button {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    /* height: 30px; */
     border: none;
-    background-color: red;
+    background-color: #2a2b2f;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
