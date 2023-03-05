@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Poppins;
-    src: url(assets/fonts/Popppins-Regular.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -11,25 +6,28 @@
 
 body {
     background-color: #16181e;
+    background-color: rgb(14, 15, 50);
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-family: sans-serif, Poppins;
     font-size: 40px;
     font-style: normal;
     font-weight: normal;
     color: #ffffff;
     text-align: center;
 }
-.addtask{
+
+.addtask {
     display: flex;
     margin: 20px auto;
     height: 40px;
     border-radius: 6px;
     overflow: hidden;
 }
-#task{
+
+#task {
     width: 100%;
     padding: 5px 12px;
     outline: none;
@@ -39,20 +37,23 @@ h1 {
     background-color: #112c44;
 }
 
-.add_img{
+.add_img {
     background-color: #123654;
     border: none;
     width: 45px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-.app{
+
+.app {
     padding: 10px 20px;
     max-width: 540px;
     margin: auto;
 }
+
 .tasklist {
     display: flex;
     flex-direction: column;
@@ -66,20 +67,23 @@ h1 {
     border-radius: 6px;
     overflow: hidden;
 }
-.tasklist p{
+
+.tasklist p {
     padding: 10px;
     width: 100%;
     background-color: #1e2131;
+    background-color: rgb(33, 39, 68);
     color: #fff;
     font-size: 1rem;
 }
+
 li button {
     width: 40px;
     border: none;
-    background-color: #2a2b2f;
+    /* background-color: #2a2b2f; */
+    background-color: rgb(70 78 116);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-
