@@ -1,7 +1,9 @@
 let tasklist = document.querySelector('.tasklist'),
     add_img = document.querySelector('.add_img');
+
 showTasks();
-add_img.addEventListener('click', () => {
+
+const addTask = () => {
     let task = document.querySelector('#task');
     let text = task.value.trim();
     if (text) {
@@ -14,7 +16,14 @@ add_img.addEventListener('click', () => {
     } else {
         alert("can't be empty");
     }
-})
+}
+
+
+add_img.addEventListener('click', addTask)
+document.querySelector('#task').onkeydown = (e) =>{
+    if(e.key ==="Enter") addTask()
+}
+
 
 function delete_task(index) {
     let tasks = localStorage.getItem('tasks');
