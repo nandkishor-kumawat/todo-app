@@ -20,8 +20,8 @@ const addTask = () => {
 
 
 add_img.addEventListener('click', addTask)
-document.querySelector('#task').onkeydown = (e) =>{
-    if(e.key ==="Enter") addTask()
+document.querySelector('#task').onkeydown = (e) => {
+    if (e.key === "Enter") addTask()
 }
 
 
